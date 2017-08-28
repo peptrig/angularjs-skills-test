@@ -2,17 +2,17 @@
 A sample project for testing skills in AngularJS.
 
 ## Prerequisites
-- Install nodejs from https://nodejs.org/
+- Install nodejs from `https://nodejs.org/`
 - So in a terminal run
-    - Install gulp: npm install gulp-cli -g then npm install gulp -D
-    - Install json-server: npm install json-server -g
+    - Install gulp: `npm install gulp-cli -g` then `npm install gulp -D`
+    - Install json-server: `npm install json-server -g`
 
 ## Getting started
 - clone the project
 - into the project folder run:
-    - run `npm install` and `bower install` to install dependencies
-    - run `gulp` to serve the project
-    - run `json-server -p 4000 -w server/db.json` to serve the web api
+    - `npm install` and `bower install` to install dependencies
+    - `gulp` to serve the project
+    - `json-server -p 4000 -w server/db.json` to serve the web api
 
 ## Tasks
 

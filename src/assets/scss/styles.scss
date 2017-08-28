@@ -1,0 +1,8 @@
+$ionicons-font-path: "../../bower_components/ionic/release/fonts" !default;
+
+@import "variables";
+@import "mixins";
+@import "base";
+@import "bower_components/ionic/scss/ionic";
+@import "components/*";
+@import "utils";

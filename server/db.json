@@ -1,0 +1,59 @@
+{
+  "events": [
+    {
+      "date": "2016-11-16",
+      "title": "Interview"
+    },
+    {
+      "startDate": "2016-11-21",
+      "endDate": "2016-11-25",
+      "title": "Internship"
+    },
+    {
+      "date": "2016-11-28",
+      "title": "Practical Exam"
+    },
+    {
+      "date": "2016-11-24",
+      "title": "Extra event"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Adam Burke",
+      "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+      "fav": true
+    },
+    {
+      "id": "2",
+      "name": "Naomi Harrison",
+      "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+      "fav": true
+    },
+    {
+      "id": 3,
+      "name": "Leslie Carr",
+      "picture": "https://randomuser.me/api/portraits/women/3.jpg",
+      "fav": true
+    },
+    {
+      "id": "4",
+      "name": "Jim Bates",
+      "picture": "https://randomuser.me/api/portraits/men/4.jpg",
+      "fav": false
+    },
+    {
+      "id": 5,
+      "name": "Jordan Morgan",
+      "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+      "fav": false
+    },
+    {
+      "id": 6,
+      "name": "Alice Reynolds",
+      "picture": "https://randomuser.me/api/portraits/women/6.jpg",
+      "fav": false
+    }
+  ]
+}

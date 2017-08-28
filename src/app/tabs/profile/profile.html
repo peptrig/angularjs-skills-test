@@ -1,0 +1,186 @@
+<ion-view view-title="Profile">
+  <ion-content>
+    <div class="profile-head">
+      <div class="profile-bg" style="background-image: url('http://www.theplace2.ru/archive/kim_basinger/img/KimBasinger_K56.jpg')"></div>
+
+      <div class="profile-content row">
+        <div class="profile-deco col">
+          <div class="profile-rating">
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star-outline"></span>
+            <span class="ion-android-star-outline"></span>
+          </div>
+
+          <div class="profile-photo" style="background-image: url('http://www.theplace2.ru/archive/kim_basinger/img/KimBasinger_K56.jpg')"></div>
+        </div>
+
+        <div class="profile-text col">
+          <div class="profile-text-inner">
+            <div class="profile-name">
+              {{ vm.resource.name + ' ' + vm.resource.surname }}
+            </div>
+
+            <div class="profile-role">
+              {{ vm.resource.mainRole }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-cards padding">
+      <div class="profile-card">
+        <div class="profile-card-heading" ng-click="vm.toggleAccordion(0)">
+          <i class="profile-card-icon icon ion-ios-information-outline"></i>
+          General Information
+
+          <span class="profile-card-count">6 items</span>
+
+          <button
+            class="profile-card-button button button-clear button-positive button-small icon ion-edit"
+            ng-click="vm.openModal($event, 0)">
+          </button>
+        </div>
+
+        <div class="profile-card-content" ng-show="vm.activeAccordion === 0">
+          <div class="profile-item">
+            <span class="profile-label">Gender</span>
+            <span class="profile-value">Male</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">Birthday</span>
+            <span class="profile-value">12.06.1993</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">Nationality</span>
+            <span class="profile-value">English</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">Email</span>
+            <span class="profile-value">jdoe@gmail.com</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">Telephone</span>
+            <span class="profile-value">065650545604</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">Address</span>
+            <span class="profile-value">St. Alexander, 1001</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <div class="profile-card-heading" ng-click="vm.toggleAccordion(1)">
+          <i class="profile-card-icon icon ion-ios-analytics-outline"></i>
+          Skills
+
+          <span class="profile-card-count">6 items</span>
+
+          <button
+            class="profile-card-button button button-clear button-positive button-small icon ion-edit"
+            ng-click="vm.openModal($event, 1)">
+          </button>
+        </div>
+
+        <div class="profile-card-content" ng-show="vm.activeAccordion === 1">
+          <div class="profile-item">
+            <span class="profile-label">HTML5</span>
+            <span class="profile-value">Excellent</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">CSS3</span>
+            <span class="profile-value">Excellent</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">JavaScript</span>
+            <span class="profile-value">Good</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">jQuery</span>
+            <span class="profile-value">Good</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">AngularJS</span>
+            <span class="profile-value">Good</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">Ionic</span>
+            <span class="profile-value">Basic</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <div class="profile-card-heading" ng-click="vm.toggleAccordion(2)">
+          <i class="profile-card-icon icon ion-ios-world-outline"></i>
+          Languages
+
+          <span class="profile-card-count">3 items</span>
+
+          <button
+            class="profile-card-button button button-clear button-positive button-small icon ion-edit"
+            ng-click="vm.openModal($event, 2)">
+          </button>
+        </div>
+
+        <div class="profile-card-content" ng-show="vm.activeAccordion === 2">
+          <div class="profile-item">
+            <span class="profile-label">English</span>
+            <span class="profile-value">Native</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">Italian</span>
+            <span class="profile-value">Good</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">French</span>
+            <span class="profile-value">Basic</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <div class="profile-card-heading" ng-click="vm.toggleAccordion(3)">
+          <i class="profile-card-icon icon ion-ios-football-outline"></i>
+          Hobbies
+
+          <span class="profile-card-count">3 items</span>
+
+          <button
+            class="profile-card-button button button-clear button-positive button-small icon ion-edit"
+            ng-click="vm.openModal($event, 3)">
+          </button>
+        </div>
+
+        <div class="profile-card-content" ng-show="vm.activeAccordion === 3">
+          <div class="profile-item">
+            <span class="profile-label">Cycling</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">Fishing</span>
+          </div>
+
+          <div class="profile-item">
+            <span class="profile-label">Football</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,17 @@
+<ion-view view-title="Video Call">
+  <ion-nav-buttons side="secondary">
+    <button class="button button-clear" ng-click="vm.call()">Call</button>
+  </ion-nav-buttons>
+
+  <ion-content scroll="false">
+    <div class="video-chat">
+      <div class="video-chat-remote">
+        <video id="remoteVideo" ng-src="{{vm.remoteSrc}}" autoplay></video>
+      </div>
+
+      <div class="video-chat-local">
+        <video id="localVideo" ng-src="{{vm.localSrc}}" autoplay muted></video>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

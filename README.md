@@ -3,8 +3,10 @@ A sample project for testing skills in AngularJS.
 
 ## Prerequisites
 - Install nodejs from `https://nodejs.org/`
+- Install git from `https://git-scm.com/`
 - So in a terminal run
     - Install gulp: `npm install gulp-cli -g` then `npm install gulp -D`
+    - Install bower: `npm install bower -g`
     - Install json-server: `npm install json-server -g`
 
 ## Getting started

@@ -47,7 +47,7 @@ Tapping on a contact should make the app go to "Video Call", which will not be a
 
 ### "Favourite contact" feature 
 Add the possibility to mark the contact as favourite.
-This functionality should be accessible from both "Contacts" tab and "Video Call" tab.
+This functionality should be accessible from "Contacts" tab.
 
 The contacts endpoint mentioned above, is RESTful. Use it for saving changes that are made to contacts.
 
